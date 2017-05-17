@@ -30,13 +30,17 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 /*
-	A plugin for the Google protocol buffer compiler to generate Go code.
+	An EXPERIMENTAL plugin for the Google protocol buffer compiler to generate Go code.
+
+	This is a fork of the standard protoc-gen-go for the experimental
+	go4.org/grpc package.
+
 	Run it by building this program and putting it in your path with the name
-		protoc-gen-go
-	That word 'go' at the end becomes part of the option string set for the
+		protoc-gen-go4grpc
+	That word 'go4gprc' at the end becomes part of the option string set for the
 	protocol compiler, so once the protocol compiler (protoc) is installed
 	you can run
-		protoc --go_out=output_directory input_directory/file.proto
+		protoc --go4grpc_out=output_directory input_directory/file.proto
 	to generate Go bindings for the protocol defined by file.proto.
 	With that input, the output will be written to
 		output_directory/file.pb.go
