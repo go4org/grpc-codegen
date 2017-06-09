@@ -37,7 +37,7 @@ import (
 	"testing"
 
 	mytestpb "./my_test"
-	multipb "go4.org/grpc-codegen/testdata/multi"
+	multipb "grpc-codegen.go4.org/testdata/multi"
 )
 
 func TestLink(t *testing.T) {

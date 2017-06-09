@@ -24,7 +24,7 @@ package my_test
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "go4.org/grpc-codegen/testdata/multi"
+import _ "grpc-codegen.go4.org/testdata/multi"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

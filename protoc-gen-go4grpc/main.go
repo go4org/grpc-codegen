@@ -53,7 +53,7 @@ import (
 	"os"
 
 	"github.com/golang/protobuf/proto"
-	"go4.org/grpc-codegen/generator"
+	"grpc-codegen.go4.org/generator"
 )
 
 func main() {

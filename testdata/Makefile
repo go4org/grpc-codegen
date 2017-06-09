@@ -41,7 +41,7 @@ test:	golden testbuild
 #	@echo PASS
 
 my_test/test.pb.go: my_test/test.proto
-	protoc --go_out=Mmulti/multi1.proto=go4.org/grpc-codegen/testdata/multi:. $<
+	protoc --go_out=Mmulti/multi1.proto=grpc-codegen.go4.org/testdata/multi:. $<
 
 golden:
 	make -B my_test/test.pb.go

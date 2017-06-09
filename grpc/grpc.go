@@ -40,8 +40,8 @@ import (
 	"strconv"
 	"strings"
 
-	pb "go4.org/grpc-codegen/descriptor"
-	"go4.org/grpc-codegen/generator"
+	pb "grpc-codegen.go4.org/descriptor"
+	"grpc-codegen.go4.org/generator"
 )
 
 // generatedCodeVersion indicates a version of the generated code.

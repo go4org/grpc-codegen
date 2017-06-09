@@ -34,7 +34,7 @@ package generator
 import (
 	"testing"
 
-	"go4.org/grpc-codegen/descriptor"
+	"grpc-codegen.go4.org/descriptor"
 )
 
 func TestCamelCase(t *testing.T) {

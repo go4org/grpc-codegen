@@ -33,7 +33,7 @@
 	An EXPERIMENTAL plugin for the Google protocol buffer compiler to generate Go code.
 
 	This is a fork of the standard protoc-gen-go for the experimental
-	go4.org/grpc package.
+	grpc.go4.org package.
 
 	Run it by building this program and putting it in your path with the name
 		protoc-gen-go4grpc

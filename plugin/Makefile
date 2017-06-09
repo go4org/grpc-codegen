@@ -34,9 +34,9 @@
 # Also we need to fix an import.
 regenerate:
 	echo WARNING! THIS RULE IS PROBABLY NOT RIGHT FOR YOUR INSTALLATION
-	protoc --go_out=Mgoogle/protobuf/descriptor.proto=go4.org/grpc-codegen/descriptor:. \
+	protoc --go_out=Mgoogle/protobuf/descriptor.proto=grpc-codegen.go4.org/descriptor:. \
 		-I$(HOME)/src/protobuf/src $(HOME)/src/protobuf/src/google/protobuf/compiler/plugin.proto && \
-		mv google/protobuf/compiler/plugin.pb.go $(GOPATH)/src/go4.org/grpc-codegen/plugin
+		mv google/protobuf/compiler/plugin.pb.go $(GOPATH)/src/grpc-codegen.go4.org/plugin
 
 restore:
 	cp plugin.pb.golden plugin.pb.go

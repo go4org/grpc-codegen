@@ -31,4 +31,4 @@
 
 package main
 
-import _ "go4.org/grpc-codegen/grpc"
+import _ "grpc-codegen.go4.org/grpc"

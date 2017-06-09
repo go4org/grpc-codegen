@@ -17,7 +17,7 @@ package plugin_go
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import google_protobuf "go4.org/grpc-codegen/descriptor"
+import google_protobuf "grpc-codegen.go4.org/descriptor"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

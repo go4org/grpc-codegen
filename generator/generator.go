@@ -54,8 +54,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"go4.org/grpc-codegen/descriptor"
-	plugin "go4.org/grpc-codegen/plugin"
+	"grpc-codegen.go4.org/descriptor"
+	plugin "grpc-codegen.go4.org/plugin"
 )
 
 // generatedCodeVersion indicates a version of the generated code.
