@@ -54,7 +54,7 @@ const generatedCodeVersion = 4
 // relative to the import_prefix of the generator.Generator.
 const (
 	contextPkgPath = "context"
-	grpcPkgPath    = "go4.org/grpc"
+	grpcPkgPath    = "grpc.go4.org"
 )
 
 func init() {
